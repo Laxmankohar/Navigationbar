@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: crimson;
+}
+.nav-bar a{
+    background-color: rgba(0, 0, 0, 0.932);
+    text-decoration: none;
+    display: block;
+    
+}
+.nav-bar > ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.nav-bar > ul > li > a {
+    padding: 10px;
+    font-size: 20px;
+    
+}
+.nav-bar > ul > li > a:hover {
+    background-color: rgb(14, 2, 48);
+    color: rgb(237, 242, 243);
+    text-decoration:underline ;
+}
+.nav-bar > ul > li{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
